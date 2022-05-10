@@ -83,6 +83,8 @@ namespace generadorCodigo.Repository
             if (!(reader["DATETIME_PRECISION"] is DBNull))
             {
                 it.Datetime_precision = Convert.ToInt32(reader["DATETIME_PRECISION"]);
+
+                
             }
             if (!(reader["CHARACTER_MAXIMUM_LENGTH"] is DBNull))
             {
